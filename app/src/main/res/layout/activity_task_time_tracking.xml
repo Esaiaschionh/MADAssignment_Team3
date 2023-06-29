@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".TaskTimeTrackingActivity">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="414dp"
+        android:layout_height="297dp"
+        android:background="#A6A6A6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rounded_corner" />
+
     <Button
         android:id="@+id/new_Notes_btn"
         android:layout_width="76dp"
@@ -71,10 +83,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.973" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton"
         android:layout_width="333dp"
         android:layout_height="73dp"
+        android:background="#A6A6A6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,6 +108,108 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Task"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <EditText
+        android:id="@+id/email_edit_text4"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="   %"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <EditText
+        android:id="@+id/email_edit_text5"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="   %"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <EditText
+        android:id="@+id/email_edit_text6"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="   %"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <EditText
+        android:id="@+id/email_edit_text3"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Task"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <EditText
+        android:id="@+id/email_edit_text2"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Task"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
