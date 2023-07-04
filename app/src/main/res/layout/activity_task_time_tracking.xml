@@ -8,11 +8,12 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="401dp"
-        android:layout_height="340dp"
+        android:layout_width="426dp"
+        android:layout_height="600dp"
         android:background="#A6A6A6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -121,61 +122,61 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693" />
+        app:layout_constraintVertical_bias="0.33" />
 
     <EditText
         android:id="@+id/email_edit_text4"
         android:layout_width="81dp"
         android:layout_height="58dp"
         android:background="@drawable/rounded_corner"
-        android:hint="   %"
+        android:hint="   hrs"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693" />
+        app:layout_constraintVertical_bias="0.329" />
 
     <EditText
         android:id="@+id/email_edit_text5"
         android:layout_width="81dp"
         android:layout_height="58dp"
         android:background="@drawable/rounded_corner"
-        android:hint="   %"
+        android:hint="   hrs"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804" />
+        app:layout_constraintVertical_bias="0.454" />
 
     <EditText
         android:id="@+id/email_edit_text6"
         android:layout_width="81dp"
         android:layout_height="58dp"
         android:background="@drawable/rounded_corner"
-        android:hint="   %"
+        android:hint="   hrs"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.574" />
 
     <EditText
         android:id="@+id/email_edit_text3"
@@ -189,10 +190,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.574" />
 
     <EditText
         android:id="@+id/email_edit_text2"
@@ -206,18 +207,18 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/new_Notes_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804" />
+        app:layout_constraintVertical_bias="0.454" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Edit"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="146dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
