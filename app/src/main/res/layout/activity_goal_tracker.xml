@@ -1,0 +1,53 @@
+<!-- activity_goal_tracker.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Goal Name Input -->
+    <EditText
+        android:id="@+id/editTextGoalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Goal Name"
+        android:padding="16dp" />
+
+    <!-- Goal Description Input -->
+    <EditText
+        android:id="@+id/editTextGoalDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGoalName"
+        android:hint="Enter Goal Description"
+        android:padding="16dp" />
+
+    <!-- Goal Due Date Input -->
+    <DatePicker
+        android:id="@+id/datePickerGoalDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGoalDescription"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp" />
+
+    <!-- Save Goal Button -->
+    <Button
+        android:id="@+id/buttonSaveGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePickerGoalDueDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Save Goal" />
+
+    <!-- Display Goals Button -->
+    <Button
+        android:id="@+id/buttonDisplayGoals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSaveGoal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Display Goals" />
+
+</RelativeLayout>

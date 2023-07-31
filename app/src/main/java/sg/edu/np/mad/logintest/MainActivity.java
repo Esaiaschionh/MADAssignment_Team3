@@ -1,11 +1,11 @@
 package sg.edu.np.mad.logintest;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button project_Management_button;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openTaskTimeTrackingActivity(){
-        Intent intent = new Intent(this, TaskTimeTrackingActivity.class);
+        Intent intent = new Intent (this, TaskTimeTrackingActivity.class);
         startActivity(intent);
     }
 
